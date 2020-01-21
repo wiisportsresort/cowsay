@@ -1,0 +1,33 @@
+{
+  "name": "cowsay",
+  "version": "2.0.0",
+  "description": "cowsay is a configurable talking cow",
+  "keywords": [
+    "cowsay",
+    "ASCII"
+  ],
+  "homepage": "https://github.com/johnnysprinkles/cowsay",
+  "author": {
+    "name": "John Simons",
+    "email": "coolcucumber@gmail.com",
+    "url": "https://github.com/johnnysprinkles/"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnysprinkles/cowsay.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "string-width": "^4"
+  },
+  "devDependencies": {
+    "eslint": "^6"
+  },
+  "engines": {
+    "node": ">= 10"
+  }
+}
