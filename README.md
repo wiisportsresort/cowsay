@@ -26,3 +26,54 @@ Or pass some options:
 Get a demo of all available cows with `node test/cows.js`, and get a demo of all
 available modes with `node test/modes.js`. Get a general test demonstrating line wrapping
 and whitespace handling at `node test/example.js`.
+
+### Examples
+
+    console.log(cowsay('hi'));
+     ____
+    < hi >
+     ----
+
+            \   ^__^
+             \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||
+
+
+    console.log(cowsay.say("The static String.raw() method is a tag function of template literals. This is similar to the r prefix in Python, or the @ prefix in C# for string literals. (But it is not identical; see explanations in this issue.) It's used to get the raw string form of template strings, that is, substitutions (e.g. \${foo}) are processed, but escapes (e.g. \n) are not."));
+     __________________________________________
+    / The static String.raw() method is a tag  \
+    | function of template literals. This is   |
+    | similar to the r prefix in Python, or    |
+    | the @ prefix in C# for string literals.  |
+    | (But it is not identical; see            |
+    | explanations in this issue.) It's used   |
+    | to get the raw string form of template   |
+    | strings, that is, substitutions (e.g.    |
+    | ${foo}) are processed, but escapes (e.g. |
+    \ ) are not.                               /
+     ------------------------------------------
+
+            \   ^__^
+             \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||
+
+
+    const whale = require('./cows/whale');
+    console.log(cowsay.say('Moo', { cow: whale }));
+     _____
+    < Moo >
+     -----
+
+       \
+        \
+         \
+                    '-.
+          .---._     \ .--'
+        /       `-..__)  ,-'
+       |    0           /
+        --.__,   .__.,`
+         `-.___'._\_.'
