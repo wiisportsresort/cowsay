@@ -33,7 +33,6 @@ and whitespace handling at `node test/example.js`.
      ____
     < hi >
      ----
-
             \   ^__^
              \  (oo)\_______
                 (__)\       )\/\
@@ -54,7 +53,6 @@ and whitespace handling at `node test/example.js`.
     | ${foo}) are processed, but escapes (e.g. |
     \ ) are not.                               /
      ------------------------------------------
-
             \   ^__^
              \  (oo)\_______
                 (__)\       )\/\
@@ -67,7 +65,6 @@ and whitespace handling at `node test/example.js`.
      _____
     < Moo >
      -----
-
        \
         \
          \

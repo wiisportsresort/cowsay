@@ -18,7 +18,7 @@ function doIt(text, options = {}, action) {
     eye: face.eyes[0],
   });
 
-  return `${filledBalloon}\n${filledCow}`;
+  return `${filledBalloon}${filledCow}`;
 }
 
 exports.say = function(text, options) {
