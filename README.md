@@ -1,7 +1,9 @@
 # cowsay
 Modernized version of cowsay
 
-This is a fork of https://github.com/piuccio/cowsay with these improvements:
+This borrows from https://github.com/piuccio/cowsay.
+The cow files are the same content but instead of Perl heredoc text files
+they're ES6 template literals.
 
 * No reading files at runtime. Cows are declared as static compile-time dependencies.
 * Works the same whether client-side or server-side, and whether running from
@@ -74,3 +76,7 @@ and whitespace handling at `node test/example.js`.
        |    0           /
         --.__,   .__.,`
          `-.___'._\_.'
+
+### Related packages
+
+https://github.com/piuccio/cowsay
