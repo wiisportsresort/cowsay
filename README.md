@@ -1,4 +1,7 @@
 # cowsay
+
+[![Build Status](https://travis-ci.com/johnnysprinkles/cowsay.svg?branch=master)](https://travis-ci.com/johnnysprinkles/cowsay)
+
 Modernized version of cowsay
 
 This borrows from https://github.com/piuccio/cowsay.
