@@ -26,7 +26,8 @@
     "string-width": "^4"
   },
   "devDependencies": {
-    "eslint": "^6"
+    "eslint": "^6",
+    "figlet": "^1"
   },
   "engines": {
     "node": ">= 10"
