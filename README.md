@@ -35,6 +35,9 @@ and whitespace handling at `node test/example.js`.
 
 ### Examples
 
+See some live example on RunKit at
+https://runkit.com/johnnysprinkles/5e28a5470e860e001a25123f
+
     console.log(cowsay('hi'));
      ____
     < hi >
