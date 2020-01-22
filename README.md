@@ -1,7 +1,7 @@
 # cowsay
 
 [![Build Status](https://travis-ci.com/johnnysprinkles/cowsay.svg?branch=master)](https://travis-ci.com/johnnysprinkles/cowsay)
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/cowsay2)
+[![npm version](https://badge.fury.io/js/cowsay2.svg)](https://badge.fury.io/js/cowsay2)
 
 Modernized version of cowsay
 
