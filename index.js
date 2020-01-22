@@ -1,6 +1,6 @@
 const balloon = require('./lib/balloon');
 const defaultCow = require('./cows/default');
-const { getFace } = require('./lib/modes');
+const { getFace } = require('./lib/faces');
 
 const DEFAULT_COLUMNS = 40;
 
@@ -10,15 +10,16 @@ function doIt(text, options = {}, action) {
   let filledBalloon = balloon[action](text, wrapWidth);
 
   let cow = options.cow || defaultCow;
-  let face = getFace(options);
+  let { eyes, tongue } = getFace(options);
 
   let filledCow = cow({
     thoughts: action == 'say' ? '\\' : 'o',
-    ...face,
-    eye: face.eyes[0],
+    eyes,
+    tongue,
+    eye: eyes[0],
   });
 
-  return `${filledBalloon}${filledCow}`;
+  return filledBalloon + filledCow;
 }
 
 exports.say = function(text, options) {
