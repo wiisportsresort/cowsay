@@ -19,6 +19,7 @@
     "url": "https://github.com/johnnysprinkles/cowsay.git"
   },
   "scripts": {
+    "test": "npm run lint",
     "lint": "eslint ."
   },
   "dependencies": {
