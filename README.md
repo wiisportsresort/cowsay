@@ -25,13 +25,33 @@ See test/example.js for examples, but the basic usage is:
 
 Or pass some options:
 
-    cowsay.say('Advanced', { cow: someCow, mode: 'paranoid' });
+    cowsay.say('Did you hear someting?', { mode: 'paranoid' });
     cowsay.say('A quick brown fox jumped over the lazy dog', { W: 15 });
     cowsay.think('I\'m looking sideways', { e: 'cc' });
 
 Get a demo of all available cows with `node test/cows.js`, and get a demo of all
 available modes with `node test/modes.js`. Get a general test demonstrating line wrapping
 and whitespace handling at `node test/example.js`.
+
+### Importing cows
+
+The above examples use the default cow file. You can import other cows and pass them in
+on the `cow` option. Do that one of two ways.
+
+Import all cows, like:
+
+    let cows = require('cowsay2/cows');
+    cowsay('Gobble gobble', { cow: cows.turkey });
+
+Or just import the cow you need (better for client-side bundles):
+
+    let cow = require('cowsay2/turkey');
+    cowsay('Gobble gobble', { cow });
+
+### Text options
+
+* `n` or `nowrap`: Don't do any line wrapping beyond whatever newlines occur in the provided text
+* `W`: Number of columns to wrap at (defaults to 40)
 
 ### Examples
 
