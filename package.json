@@ -1,6 +1,6 @@
 {
   "name": "cowsay2",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "cowsay is a configurable talking cow",
   "keywords": [
     "cowsay",
@@ -17,6 +17,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/johnnysprinkles/cowsay.git"
+  },
+  "bin": {
+    "cowsay2": "./cli.js"
   },
   "scripts": {
     "test": "npm run lint",
