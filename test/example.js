@@ -24,3 +24,6 @@ console.log(cowsay.say(`Foo
 console.log(cowsay.say('Meow', { cow: cat }));
 console.log(cowsay.say('Meow', { cow: cat2 }));
 console.log(cowsay.say('Feed me campers', { cow: bearface }));
+
+// Empty string
+console.log(cowsay.say(''));
