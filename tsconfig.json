@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

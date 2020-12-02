@@ -1,0 +1,8 @@
+src
+test
+jest.config.ts
+.eslintrc.json
+.prettierrc.json
+tsconfig.json
+.gitignore
+*.tgz

@@ -1,5 +1,7 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-var-requires */
+const { say } = require('./lib');
 
-const cowsay = require('./index');
+// TODO: if no arguments, read from stdin
 
-console.log(cowsay.say(process.argv[2]));
+console.log(say(process.argv[2]));
